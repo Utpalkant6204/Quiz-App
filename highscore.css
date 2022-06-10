@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+ul {
+    list-style: none;
+}
+  
+ul li {
+    padding: 5px 20px;
+    width: 30rem;
+    background: rgb(195, 237, 240);
+    margin-bottom: 1rem;
+    font-size: 20px;
+    position: relative;
+    transition: 0.2s;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+}
+  
+ul li:hover {
+    cursor: pointer;
+    background-color: rgb(136, 153, 153);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(177, 201, 201);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
